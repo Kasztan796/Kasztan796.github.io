@@ -1,0 +1,256 @@
+header{
+    width:100%;
+    background-image:url("https://cdn.glitch.global/a79f1205-8aae-4c7e-bce6-5242fef1fe58/obraz_2022-12-17_183457878.png?v=1671298499405");
+    background-size:cover;
+    background-attachment:fixed;
+    height:800px;
+  }
+  body {
+    background-color: #111212;
+    font-family: "Oswald", sans-serif;
+  }
+  img {
+    width: 270px;
+  }
+  h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+  }
+  .dis {
+    display: inline;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #526ab3;
+    border-color:#526ab3;  
+    text-transform: uppercase;
+  }
+  .dis:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 20px;
+    background-color: #4663bd;
+    color: white;
+  }
+  .ex {
+    display: inline;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border-color: #25b34b;
+    background-color: #25b34b;
+    text-transform: uppercase;
+  }
+  .ex2 {
+    display: inline;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border-color: #242180;
+    background-color: #242180;
+    text-transform: uppercase;
+  }
+  
+  .ex:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 20px;
+    background-color: #1c8037;
+    color: white;
+  }
+  .ex2:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 20px;
+    background-color: #171554;
+    color: white;
+  }
+  .dis2 {
+    margin-bottom: 700px;
+    margin-left: 1500px;
+  }
+  .ghostuwa {
+    font-size: 35px;
+  }
+  button {
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+  }
+  h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 200px;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .dolekidot {
+    margin: auto;
+    display: inline;
+    border-radius: 20px;
+  }
+  .dolekidot:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 1s;
+  }
+  .dorian {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h3 {
+    color: white;
+    margin: auto;
+  }
+  .dorian2 {
+    display: flex;
+    justify-content: center;
+  }
+  .czarnuh {
+    display: flex;
+    justify-content: center;
+     margin:auto;
+  }
+  .winter:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .podanka {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    
+  }
+  .podanka2 {
+    margin: auto;
+    display: inline;
+     cursor: pointer;
+    opacity: 0.8;
+    border-radius:130px;
+  }
+  .podanka3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .podanka2:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 1s;
+  }
+  .podanka-button1 {
+    display: inline;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #1a56ed;
+    text-transform: uppercase;
+    margin: auto;
+  }
+  .podanka-button2 {
+    display: inline;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #c70838;
+    text-transform: uppercase;
+    margin: auto;
+  }
+  .podanka-button3 {
+    display: inline;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #04d450;
+    text-transform: uppercase;
+    margin: auto;
+  }
+  .podanka4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .podanka-button1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #024399;
+    border-color: #1a56ed;
+  }
+  
+  .podanka-button2:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #941026;
+    border-color: #c70838;
+  }
+  
+  .podanka-button3:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #0f852e;
+    border-color: #04d450;
+  }
+  .uwu {
+    margin: auto;
+  }
+  @media screen and (max-width:768px){
+    glowny{
+      flex-direction:column;
+      align-items:flex-end;
+    }
+  }
+  .galeria{
+   display:flex;
+    justify-content:space-around;
+  text-align:center;
+    flex-wrap:wrap;
+    object-fit:cover;
+    margin:auto;
+  }
+  .galerius{
+    margin:auto;
+    width:450px;
+    object-fit:cover;
+    border-radius:30px;
+  }
+  .galerius:hover{
+      transform: scale(1.2, 1.2);
+    transition-duration: 1s;
+  }
+  .napisy{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    color:white;
+  }
+  #pp{
+    text-align:center;
+    color:white;
+  }
+  .connect{
+    color:white;
+    text-align:center;
+  }
+  
+  
+  .napisy li{
+    font-size:19px;
+  }
+  .podanka10{
+    border-radius:150px;
+  }
+  .podanka10:hover{
+      transform: scale(1.2, 1.2);
+    transition-duration: 1s;
+    cursor:pointer;
+    opacity:0.8;
+  }
+  p{
+    color:white;
+  
+  }
+  a{
+    text-decoration:none;
+  }
